@@ -131,8 +131,6 @@ function endQuiz() {
 // Function to submit the score and initials
 function submitScore() {
   const initials = initialsInput.value;
-  // Store the score and initials in your desired way (e.g., local storage)
-  // You can also redirect to a highscores page
   alert(`Score: ${timeLeft}, Initials: ${initials}`);
 }
 
